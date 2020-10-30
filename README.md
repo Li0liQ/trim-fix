@@ -4,10 +4,20 @@
 
   Trims string whitespace.
 
+## How to fix the vulnerability when using yarn
+
+In `yarn.lock` add an entry to `resolutions` field:
+```json
+resolutions: {
+    "trim": "npm:trim-fix@^0.0.1"
+}
+```
+and run `yarn install`.
+
 ## Installation
 
 ```
-$ npm install trim
+$ npm install trim-fix
 ```
 
 ## API

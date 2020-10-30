@@ -1,0 +1,14 @@
+{
+    "name": "trim-fix",
+    "version": "0.0.1",
+    "description": "Trim string whitespace",
+    "keywords": ["string", "trim"],
+    "author": "Alexey Shpakov <li0liq+npm@gmail.com>",
+    "dependencies": {},
+    "main": "index",
+    "component": {
+      "scripts": {
+        "trim/index.js": "index.js"
+      }
+    }
+  }

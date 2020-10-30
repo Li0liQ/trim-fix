@@ -4,11 +4,13 @@
     "description": "Trim string whitespace",
     "keywords": ["string", "trim"],
     "author": "Alexey Shpakov <li0liq+npm@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Li0liQ/trim-fix.git"
+    },
     "dependencies": {},
     "main": "index",
-    "component": {
-      "scripts": {
-        "trim/index.js": "index.js"
-      }
+    "engines": {
+      "node": ">=10"
     }
   }

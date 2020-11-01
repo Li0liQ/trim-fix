@@ -1,6 +1,6 @@
 {
     "name": "trim-fix",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Trim string whitespace",
     "keywords": ["string", "trim"],
     "author": "Alexey Shpakov <li0liq+npm@gmail.com>",
